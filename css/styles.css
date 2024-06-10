@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Color de fondo suave */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Cambia el color de fondo */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Añade una sombra sutíl */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px; /* Ajusta el espaciado */
+    display: inline-block; /* Cambia el comportamiento para que se ajusten al contenido */
+    transition: background-color 0.3s, color 0.3s; /* Añade una transición suave */
+}
+
+.navbar a:hover {
+    background-color: #495057; /* Cambia el color de fondo al pasar el cursor */
+    color: #fff; /* Cambia el color del texto al pasar el cursor */
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Centra los elementos del menú */
+    align-items: center;
+}
+
+.menu-item {
+    margin-left: 20px;
+}
+
+.menu-item:first-child {
+    margin-left: 0;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+.menu-item a:hover {
+    background-color: #555; /* Color de fondo al pasar el cursor */
+    border-radius: 5px; /* Bordes redondeados al pasar el cursor */
+}
+.hero {
+    background-color: #fff; /* Cambia el color de fondo */
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6; /* Añade una línea inferior */
+}
+.section {
+    padding: 50px 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+}

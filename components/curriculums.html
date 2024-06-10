@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con botón de descarga</title>
+    <link rel="stylesheet" href="../css/curriculum.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo"></div>
+    <nav class="menu">
+        <div class="menu-item"><a href="../index.html">Inicio</a></div>
+        <div class="menu-item"><a href="./definicion.html">Definiciones</a></div>
+        <div class="menu-item"><a href="./curriculums.html">Curriculums</a></div>
+    </nav>
+</header>
+
+<h2>Curriculums</h2>
+
+<table>
+    <tr>
+        <th>Nombre:</th>
+        <th>Descarga curriculums</th>
+    </tr>
+    <tr>
+        <td>Castañeda Rios Bernardo</td>
+        <td><button class="download-btn" onclick="openInNewTab('../curriculums/curriculum_Castaneda.pdf')">Descargar</button></td>
+    </tr>
+    <tr>
+        <td>Soto Cervantes Alma Diana</td>
+        <td><button class="download-btn" onclick="openInNewTab('../curriculums/Curri_alma.pdf')">Descargar</button></td>
+    </tr>
+    <tr>
+        <td>Soto Graciano Victor Emmanuel</td>
+        <td><button class="download-btn" onclick="openInNewTab('../curriculums/Curriculum-vitae.pdf')">Descargar</button></td>
+    </tr>
+</table>
+
+<script>
+    function openInNewTab(filename) {
+        window.open(filename, '_blank');
+    }
+</script>
+
+</body>
+</html>

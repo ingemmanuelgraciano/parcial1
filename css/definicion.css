@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Color de fondo suave */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Cambia el color de fondo */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Añade una sombra sutíl */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px; /* Ajusta el espaciado */
+    display: inline-block; /* Cambia el comportamiento para que se ajusten al contenido */
+    transition: background-color 0.3s, color 0.3s; /* Añade una transición suave */
+}
+
+.navbar a:hover {
+    background-color: #495057; /* Cambia el color de fondo al pasar el cursor */
+    color: #fff; /* Cambia el color del texto al pasar el cursor */
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenedor principal */
+    border-radius: 10px; /* Bordes redondeados para el contenedor principal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor principal */
+}
+
+.section {
+    margin-bottom: 40px;
+    text-align: center; /* Centra los títulos */
+}
+
+h1, h2, h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Color de texto oscuro */
+}
+
+h2 {
+    font-size: 24px;
+    color: #555; /* Color de texto ligeramente más claro */
+}
+
+h3 {
+    font-size: 18px;
+    color: #777; /* Color de texto aún más claro */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify; /* Justifica los párrafos */
+    color: #555; /* Color de texto */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555; /* Color de texto */
+}
+
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 20px;
+}
+
+.menu-item:first-child {
+    margin-left: 0;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px; /* Ajusta el espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.menu-item a:hover {
+    background-color: #555; /* Color de fondo al pasar el cursor */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    border: 2px solid #000; /* Borde negro alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+.button {
+    background-color: #007BFF; /* Color azul para el botón */
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Ajusta el espaciado */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el cursor */
+}
